@@ -46,7 +46,7 @@
           <v-btn color="green" small icon @click="editForm(item, index)">
             <v-icon>mdi-pencil</v-icon></v-btn
           >
-          <v-btn color="red" small icon @click="deleteItem(item)">
+          <v-btn color="red" small icon @click="deleteItem(index)">
             <v-icon>mdi-delete</v-icon></v-btn
           >
         </template>
